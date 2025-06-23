@@ -1,11 +1,11 @@
 
-import { ArrowDown, BookOpen, Heart, Star } from "lucide-react";
+import { ArrowDown, BookOpen, Heart, Star, Play } from "lucide-react";
 
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-main-gradient opacity-10"></div>
+      {/* Background with Krishna imagery feel */}
+      <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-yellow-50 to-red-50"></div>
       
       {/* Floating Elements */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-coral/20 rounded-full blur-xl animate-float"></div>
@@ -13,47 +13,57 @@ const Hero = () => {
       <div className="absolute bottom-40 left-20 w-24 h-24 bg-sunset/20 rounded-full blur-xl animate-float" style={{animationDelay: '4s'}}></div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="mb-8">
-            <span className="inline-block px-4 py-2 bg-white/50 backdrop-blur-sm rounded-full text-sm font-medium text-slate-600 mb-6">
-              🕉️ ISKCON - International Society for Krishna Consciousness
+            <span className="inline-block px-6 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full text-lg font-medium mb-8 shadow-lg">
+              🕉️ Hare Krishna - Welcome to Divine Wisdom
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold font-space mb-6 leading-tight">
-            <span className="bg-main-gradient bg-clip-text text-transparent">
-              ISKCON
-            </span>
-            <br />
-            <span className="text-slate-800">
-              Updesh
+          <h1 className="text-6xl md:text-8xl font-bold font-space mb-8 leading-tight">
+            <span className="bg-gradient-to-r from-orange-600 via-red-500 to-yellow-500 bg-clip-text text-transparent">
+              HARE KRISHNA
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Spreading Krishna Consciousness through divine teachings and instructions. 
-            Journey into the timeless wisdom of Bhagavad Gita and Vedic knowledge.
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6">
+            WELCOME TO OFFICIAL WEBSITE
+            <br />
+            <span className="text-orange-600">ISKCON UPDESH</span>
+          </h2>
+          
+          <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+            Discover the eternal teachings of Lord Krishna through authentic Vedic wisdom. 
+            Journey into divine consciousness with guidance from our spiritual masters.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
-            <button className="bg-main-gradient text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300 animate-glow">
-              Explore Teachings
+            <button className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-10 py-4 rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center gap-3">
+              <BookOpen size={20} />
+              Explore Sacred Texts
             </button>
-            <button className="border-2 border-slate-300 text-slate-700 px-8 py-4 rounded-full font-semibold hover:border-blue-500 hover:text-blue-600 transition-all duration-300">
-              Join Satsang
+            <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-10 py-4 rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center gap-3">
+              <Play size={20} />
+              Watch Lectures
             </button>
           </div>
           
-          <div className="flex items-center justify-center gap-6">
-            <a href="#" className="p-3 bg-white/50 backdrop-blur-sm rounded-full hover:bg-white/80 transition-all duration-300 hover:scale-110">
-              <BookOpen size={24} className="text-slate-700" />
-            </a>
-            <a href="#" className="p-3 bg-white/50 backdrop-blur-sm rounded-full hover:bg-white/80 transition-all duration-300 hover:scale-110">
-              <Heart size={24} className="text-slate-700" />
-            </a>
-            <a href="#" className="p-3 bg-white/50 backdrop-blur-sm rounded-full hover:bg-white/80 transition-all duration-300 hover:scale-110">
-              <Star size={24} className="text-slate-700" />
-            </a>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+              <BookOpen className="w-12 h-12 text-orange-500 mx-auto mb-4" />
+              <h3 className="text-lg font-bold text-slate-800 mb-2">Sacred Scriptures</h3>
+              <p className="text-slate-600 text-sm">Bhagavad Gita, Srimad Bhagavatam & more</p>
+            </div>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+              <Heart className="w-12 h-12 text-red-500 mx-auto mb-4" />
+              <h3 className="text-lg font-bold text-slate-800 mb-2">Devotional Practices</h3>
+              <p className="text-slate-600 text-sm">Japa, Kirtan, Temple worship & service</p>
+            </div>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+              <Star className="w-12 h-12 text-yellow-500 mx-auto mb-4" />
+              <h3 className="text-lg font-bold text-slate-800 mb-2">Spiritual Guidance</h3>
+              <p className="text-slate-600 text-sm">Personal development & Krishna consciousness</p>
+            </div>
           </div>
         </div>
         
