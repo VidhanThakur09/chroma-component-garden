@@ -12,18 +12,18 @@ const Contact = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-2 bg-main-gradient text-white rounded-full text-sm font-medium mb-6">
-            Get In Touch
+            Connect With Us
           </span>
           <h2 className="text-4xl md:text-5xl font-bold font-space text-slate-800 mb-6">
-            Let's create something
+            Join our spiritual
             <br />
             <span className="bg-main-gradient bg-clip-text text-transparent">
-              amazing together
+              community today
             </span>
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Ready to bring your ideas to life? I'd love to hear about your project 
-            and discuss how we can work together.
+            Ready to begin your spiritual journey? Connect with our community 
+            and discover the joy of Krishna consciousness.
           </p>
         </div>
         
@@ -37,7 +37,7 @@ const Contact = () => {
                   <input
                     type="text"
                     className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-300 outline-none"
-                    placeholder="John"
+                    placeholder="Your name"
                   />
                 </div>
                 <div>
@@ -45,7 +45,7 @@ const Contact = () => {
                   <input
                     type="text"
                     className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-300 outline-none"
-                    placeholder="Doe"
+                    placeholder="Your surname"
                   />
                 </div>
               </div>
@@ -55,7 +55,7 @@ const Contact = () => {
                 <input
                   type="email"
                   className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-300 outline-none"
-                  placeholder="john@example.com"
+                  placeholder="your@email.com"
                 />
               </div>
               
@@ -64,7 +64,7 @@ const Contact = () => {
                 <input
                   type="text"
                   className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-300 outline-none"
-                  placeholder="Project Collaboration"
+                  placeholder="Spiritual Inquiry"
                 />
               </div>
               
@@ -73,7 +73,7 @@ const Contact = () => {
                 <textarea
                   rows={5}
                   className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-300 outline-none resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Share your spiritual questions or how we can help you..."
                 ></textarea>
               </div>
               
@@ -91,7 +91,7 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-white/50">
               <h3 className="text-2xl font-bold text-slate-800 mb-6 font-space">
-                Contact Information
+                Get in Touch
               </h3>
               
               <div className="space-y-6">
@@ -101,7 +101,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium text-slate-800">Email</div>
-                    <div className="text-slate-600">hello@sarahguo.com</div>
+                    <div className="text-slate-600">info@iskconupdesh.org</div>
                   </div>
                 </div>
                 
@@ -111,7 +111,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium text-slate-800">Phone</div>
-                    <div className="text-slate-600">+1 (555) 123-4567</div>
+                    <div className="text-slate-600">+1 (555) KRISHNA</div>
                   </div>
                 </div>
                 
@@ -120,8 +120,8 @@ const Contact = () => {
                     <MapPin size={20} />
                   </div>
                   <div>
-                    <div className="font-medium text-slate-800">Location</div>
-                    <div className="text-slate-600">San Francisco, CA</div>
+                    <div className="font-medium text-slate-800">Temple</div>
+                    <div className="text-slate-600">Find your local ISKCON center</div>
                   </div>
                 </div>
               </div>
@@ -129,20 +129,21 @@ const Contact = () => {
             
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-white/50">
               <h3 className="text-xl font-bold text-slate-800 mb-4 font-space">
-                Let's Connect
+                Join Our Satsang
               </h3>
               <p className="text-slate-600 mb-6">
-                Follow my journey and connect with me on social platforms for the latest updates and insights.
+                Connect with devotees worldwide and stay updated with spiritual programs, 
+                festivals, and Krishna consciousness activities.
               </p>
               <div className="flex gap-4">
                 <a href="#" className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center hover:bg-slate-200 transition-colors duration-300">
-                  <span className="text-slate-600 font-bold">Tw</span>
+                  <span className="text-slate-600 font-bold">FB</span>
                 </a>
                 <a href="#" className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center hover:bg-slate-200 transition-colors duration-300">
-                  <span className="text-slate-600 font-bold">In</span>
+                  <span className="text-slate-600 font-bold">YT</span>
                 </a>
                 <a href="#" className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center hover:bg-slate-200 transition-colors duration-300">
-                  <span className="text-slate-600 font-bold">Gh</span>
+                  <span className="text-slate-600 font-bold">IG</span>
                 </a>
               </div>
             </div>

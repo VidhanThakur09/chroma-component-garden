@@ -10,13 +10,13 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-main-gradient text-white rounded-full text-sm font-medium mb-6">
-              About Me
+              About ISKCON Updesh
             </span>
             <h2 className="text-4xl md:text-5xl font-bold font-space text-slate-800 mb-6">
-              Passionate about creating
+              Spreading the eternal
               <br />
               <span className="bg-main-gradient bg-clip-text text-transparent">
-                meaningful experiences
+                message of Krishna
               </span>
             </h2>
           </div>
@@ -24,18 +24,19 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-slate-600 leading-relaxed">
-                Hi! I'm Sarah, a digital creator and developer with a passion for building 
-                innovative solutions that make a difference. I specialize in creating 
-                user-centered designs and robust applications.
+                ISKCON Updesh represents the divine teachings and instructions of the 
+                International Society for Krishna Consciousness, founded by His Divine 
+                Grace A.C. Bhaktivedanta Swami Prabhupada.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                With years of experience in both design and development, I bridge the gap 
-                between creativity and functionality, ensuring every project delivers 
-                exceptional user experiences.
+                Our mission is to spread Krishna consciousness throughout the world 
+                through the timeless wisdom of Bhagavad Gita, Srimad Bhagavatam, 
+                and other Vedic literatures, helping souls reconnect with their 
+                eternal relationship with Krishna.
               </p>
               <div className="pt-4">
                 <button className="bg-slate-800 text-white px-6 py-3 rounded-full font-semibold hover:bg-slate-700 transition-all duration-300 hover:scale-105">
-                  Download Resume
+                  Learn More
                 </button>
               </div>
             </div>
@@ -44,20 +45,20 @@ const About = () => {
               <div className="bg-card-gradient backdrop-blur-sm rounded-2xl p-8 border border-white/20 shadow-xl">
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-slate-800 mb-2">5+</div>
-                    <div className="text-slate-600">Years Experience</div>
-                  </div>
-                  <div className="text-center">
                     <div className="text-3xl font-bold text-slate-800 mb-2">50+</div>
-                    <div className="text-slate-600">Projects Completed</div>
+                    <div className="text-slate-600">Years of Service</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-slate-800 mb-2">100%</div>
-                    <div className="text-slate-600">Client Satisfaction</div>
+                    <div className="text-3xl font-bold text-slate-800 mb-2">500+</div>
+                    <div className="text-slate-600">Temples Worldwide</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-slate-800 mb-2">24/7</div>
-                    <div className="text-slate-600">Support</div>
+                    <div className="text-3xl font-bold text-slate-800 mb-2">100M+</div>
+                    <div className="text-slate-600">Books Distributed</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-slate-800 mb-2">∞</div>
+                    <div className="text-slate-600">Divine Blessings</div>
                   </div>
                 </div>
               </div>

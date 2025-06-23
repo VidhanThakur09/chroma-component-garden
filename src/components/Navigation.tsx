@@ -16,10 +16,10 @@ const Navigation = () => {
 
   const navItems = [
     { href: "#home", label: "Home" },
-    { href: "#about", label: "About" },
-    { href: "#skills", label: "Skills" },
-    { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" }
+    { href: "#about", label: "About Updesh" },
+    { href: "#teachings", label: "Teachings" },
+    { href: "#resources", label: "Resources" },
+    { href: "#contact", label: "Connect" }
   ];
 
   return (
@@ -29,7 +29,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#home" className="text-2xl font-bold font-space bg-main-gradient bg-clip-text text-transparent">
-            Sarah Guo
+            ISKCON Updesh
           </a>
           
           {/* Desktop Navigation */}
