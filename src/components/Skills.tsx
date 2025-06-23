@@ -1,5 +1,5 @@
 
-import { BookOpen, Heart, Users, Globe, Lotus, Sun } from "lucide-react";
+import { BookOpen, Heart, Users, Globe, Flower2, Sun } from "lucide-react";
 
 const Skills = () => {
   const teachings = [
@@ -16,7 +16,7 @@ const Skills = () => {
       gradient: "from-ocean to-coral"
     },
     {
-      icon: <Lotus className="w-8 h-8" />,
+      icon: <Flower2 className="w-8 h-8" />,
       title: "Srimad Bhagavatam",
       description: "The beautiful pastimes of Krishna",
       gradient: "from-sunset to-golden"
