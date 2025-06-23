@@ -14,14 +14,14 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-6xl mx-auto">
-          {/* Fixed positioning for the welcome badge */}
-          <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-20">
-            <span className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full text-sm md:text-base font-medium shadow-lg">
-              🕉️ Hare Krishna - Welcome to Divine Wisdom
-            </span>
-          </div>
-          
           <div className="pt-20 pb-8">
+            {/* Welcome badge positioned above the main heading */}
+            <div className="mb-8">
+              <span className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full text-sm md:text-base font-medium shadow-lg">
+                🕉️ Hare Krishna - Welcome to Divine Wisdom
+              </span>
+            </div>
+            
             <h1 className="text-6xl md:text-8xl font-bold font-space mb-8 leading-tight">
               <span className="bg-gradient-to-r from-orange-600 via-red-500 to-yellow-500 bg-clip-text text-transparent">
                 HARE KRISHNA
