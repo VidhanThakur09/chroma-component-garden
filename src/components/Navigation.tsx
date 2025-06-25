@@ -18,7 +18,7 @@ const Navigation = () => {
   const navItems = [
     { href: "#home", label: "Home", isExternal: true },
     { href: "/about", label: "About", isExternal: false },
-    { href: "#teachings", label: "Teachings", isExternal: true },
+    { href: "/teachings", label: "Teachings", isExternal: false },
     { href: "/books", label: "Sacred Books", isExternal: false },
     { href: "#resources", label: "Resources", isExternal: true },
     { href: "#lectures", label: "Lectures", isExternal: true },
