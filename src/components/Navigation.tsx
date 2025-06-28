@@ -19,7 +19,7 @@ const Navigation = () => {
     { href: "/about", label: "About", isExternal: false },
     { href: "/teachings", label: "Teachings", isExternal: false },
     { href: "/books", label: "Sacred Books", isExternal: false },
-    { href: "#gallery", label: "Gallery", isExternal: true },
+    { href: "/gallery", label: "Gallery", isExternal: false },
     { href: "#lectures", label: "Lectures", isExternal: true },
     { href: "#contact", label: "Connect", isExternal: true }
   ];
