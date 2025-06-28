@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -20,7 +19,7 @@ const Navigation = () => {
     { href: "/about", label: "About", isExternal: false },
     { href: "/teachings", label: "Teachings", isExternal: false },
     { href: "/books", label: "Sacred Books", isExternal: false },
-    { href: "#resources", label: "Resources", isExternal: true },
+    { href: "#gallery", label: "Gallery", isExternal: true },
     { href: "#lectures", label: "Lectures", isExternal: true },
     { href: "#contact", label: "Connect", isExternal: true }
   ];
