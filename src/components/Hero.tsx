@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="absolute top-40 right-20 w-32 h-32 bg-ocean/20 rounded-full blur-xl animate-float" style={{animationDelay: '2s'}}></div>
       <div className="absolute bottom-40 left-20 w-24 h-24 bg-sunset/20 rounded-full blur-xl animate-float" style={{animationDelay: '4s'}}></div>
       
-      <div className="container mx-auto px-6 text-center relative z-10">
+      <div className="container mx-auto px-6 text-center relative z-10 pb-20">
         <div className="max-w-6xl mx-auto">
           <div className="pt-20 pb-8">
             {/* Welcome badge positioned above the main heading */}
@@ -50,7 +50,7 @@ const Hero = () => {
               </button>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-16">
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
                 <BookOpen className="w-12 h-12 text-orange-500 mx-auto mb-4" />
                 <h3 className="text-lg font-bold text-slate-800 mb-2">Sacred Scriptures</h3>
@@ -70,7 +70,7 @@ const Hero = () => {
           </div>
         </div>
         
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="flex justify-center animate-bounce">
           <ArrowDown className="text-slate-400" size={32} />
         </div>
       </div>
