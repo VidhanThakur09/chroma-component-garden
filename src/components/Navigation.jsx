@@ -16,7 +16,7 @@ const Navigation = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleAnchorNavigation = (anchor: string) => {
+  const handleAnchorNavigation = (anchor) => {
     navigate('/', { replace: true });
     setTimeout(() => {
       const element = document.querySelector(anchor);
