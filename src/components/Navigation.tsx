@@ -1,10 +1,12 @@
+
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -13,6 +15,16 @@ const Navigation = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handleAnchorNavigation = (anchor: string) => {
+    navigate('/', { replace: true });
+    setTimeout(() => {
+      const element = document.querySelector(anchor);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+  };
 
   const navItems = [
     { href: "#home", label: "Home", isExternal: true },
@@ -38,13 +50,13 @@ const Navigation = () => {
           <div className="hidden lg:flex items-center space-x-6">
             {navItems.map((item) => (
               item.isExternal ? (
-                <a
+                <button
                   key={item.href}
-                  href={item.href}
-                  className="text-slate-700 hover:text-orange-600 transition-colors duration-300 font-medium text-sm"
+                  onClick={() => handleAnchorNavigation(item.href)}
+                  className="text-slate-700 hover:text-orange-600 transition-colors duration-300 font-medium text-sm cursor-pointer"
                 >
                   {item.label}
-                </a>
+                </button>
               ) : (
                 <Link
                   key={item.href}
@@ -71,14 +83,16 @@ const Navigation = () => {
           <div className="lg:hidden mt-4 pb-4 space-y-4 bg-white/95 backdrop-blur-sm rounded-lg p-4 shadow-lg">
             {navItems.map((item) => (
               item.isExternal ? (
-                <a
+                <button
                   key={item.href}
-                  href={item.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="block text-slate-700 hover:text-orange-600 transition-colors duration-300 font-medium py-2"
+                  onClick={() => {
+                    handleAnchorNavigation(item.href);
+                    setIsMobileMenuOpen(false);
+                  }}
+                  className="block text-slate-700 hover:text-orange-600 transition-colors duration-300 font-medium py-2 w-full text-left"
                 >
                   {item.label}
-                </a>
+                </button>
               ) : (
                 <Link
                   key={item.href}
