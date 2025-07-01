@@ -5,9 +5,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index.jsx";
-import About from "./pages/About.jsx";
-import Teachings from "./pages/Teachings.jsx";
-import SacredBooks from "./pages/SacredBooks.jsx";
+import About from "./pages/About.tsx";
+import Teachings from "./pages/Teachings.tsx";
+import SacredBooks from "./pages/SacredBooks.tsx";
 import GalleryPage from "./pages/Gallery.jsx";
 import NotFound from "./pages/NotFound.jsx";
 
