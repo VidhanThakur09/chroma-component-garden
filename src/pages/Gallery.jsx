@@ -1,6 +1,6 @@
 
 import Navigation from "@/components/Navigation.jsx";
-import Gallery from "@/components/Gallery.tsx";
+import Gallery from "@/components/Gallery.jsx";
 import Footer from "@/components/Footer.jsx";
 
 const GalleryPage = () => {
