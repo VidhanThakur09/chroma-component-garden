@@ -1,7 +1,7 @@
 
-import Navigation from "@/components/Navigation.jsx";
-import Gallery from "@/components/Gallery.jsx";
-import Footer from "@/components/Footer.jsx";
+import Navigation from "@/components/Navigation";
+import Gallery from "@/components/Gallery";
+import Footer from "@/components/Footer";
 
 const GalleryPage = () => {
   return (
